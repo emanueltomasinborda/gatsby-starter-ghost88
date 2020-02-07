@@ -30,9 +30,11 @@ try {
 *
 */
 module.exports = {
-    siteMetadata: {
-        siteUrl: config.siteUrl,
-    },
+     siteMetadata: {
+    title: 'Noche',
+    description: 'This is a description for my site',
+    siteUrl: 'https://noche.eu.org', // full path to blog - no ending slash
+  },
     plugins: [
         /**
          *  Content Plugins
