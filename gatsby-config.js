@@ -58,8 +58,8 @@ module.exports = {
         {
             resolve: `gatsby-source-ghost`,
             options:
-                process.env.NODE_ENV === `development`
-                    : ghostConfig.development
+                process.env.NODE_ENV === `production`
+                    ? ghostConfig.development
                     : ghostConfig.production,
         },
         /**
